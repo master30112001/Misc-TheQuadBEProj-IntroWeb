@@ -16,9 +16,10 @@ import {
 } from '@chakra-ui/react';
 
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 import { CheckIcon } from '@chakra-ui/icons';
 
-const Card = () => {
+const TanCard = () => {
   return (
     <Flex
       bg={useColorModeValue('#F9FAFB', 'gray.600')}
@@ -54,7 +55,7 @@ const Card = () => {
             color={useColorModeValue('gray.800', 'white')}
             fontWeight="bold"
           >
-            Vedant Bothikar
+            Tanuj Pancholi
           </chakra.h2>
 
           <Stack direction="row">
@@ -113,12 +114,33 @@ const Card = () => {
             <HStack>
               <Link href="https://chakra-ui.com">
                 {' '}
-                <Button leftIcon={<FaGithub />}>Github</Button>
+                <Button
+                  size="sm"
+                  colorScheme="facebook"
+                  leftIcon={<FaGithub />}
+                >
+                  Github
+                </Button>
               </Link>
 
               <Link href="https://chakra-ui.com">
-                <Button colorScheme="linkedin" leftIcon={<FaLinkedin />}>
+                <Button
+                  size="sm"
+                  colorScheme="linkedin"
+                  leftIcon={<FaLinkedin />}
+                >
                   LinkedIn
+                </Button>
+              </Link>
+
+              <Link href="https://chakra-ui.com">
+                <Button
+                  size="sm"
+                  leftIcon={<MdEmail />}
+                  colorScheme="red"
+                  variant="solid"
+                >
+                  Email
                 </Button>
               </Link>
             </HStack>
@@ -129,4 +151,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default TanCard;

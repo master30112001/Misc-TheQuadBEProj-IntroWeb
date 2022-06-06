@@ -40,7 +40,7 @@ const FeaturesHighlight = () => {
           textTransform="uppercase"
           fontWeight="extrabold"
         >
-          Award winning support
+          Finest developers
         </chakra.span>
         <chakra.h1
           mb={4}
@@ -50,7 +50,7 @@ const FeaturesHighlight = () => {
           lineHeight="shorter"
           textShadow="2px 0 currentcolor"
         >
-          We&apos;re here to help
+          We&apos;re here to develop
         </chakra.h1>
         <chakra.p
           pr={{ base: 0, lg: 16 }}
@@ -59,10 +59,9 @@ const FeaturesHighlight = () => {
           color={useColorModeValue('brand.600', 'gray.400')}
           letterSpacing="wider"
         >
-          Get the #1 Business Messenger and start delivering personalized
-          experiences at every stage of the customer journey.
+          We are the matchless developers to get your work par excellence.
         </chakra.p>
-        <Box display="inline-flex" rounded="md" shadow="md">
+        <Box display="inline-flex" rounded="md" shadow="lg">
           <chakra.a
             mt={2}
             display="inline-flex"
@@ -80,7 +79,7 @@ const FeaturesHighlight = () => {
               bg: useColorModeValue('brand.700', 'green.600'),
             }}
           >
-            Talk to us
+            Get in touch
             <Icon as={FiExternalLink} ml={2} />
           </chakra.a>
         </Box>

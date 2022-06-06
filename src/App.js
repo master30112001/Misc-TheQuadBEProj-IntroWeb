@@ -7,7 +7,6 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
   Spacer,
   HStack,
   useColorModeValue,
@@ -17,11 +16,17 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
 import Header from './components/Header.component';
-import Card from './components/Card.component';
 import Footer from './components/Footer.component';
 import FeaturesHighlight from './components/Features-Highlight.component';
 import FeaturesDescription from './components/Features-Description.component';
 import Contact from './components/Contact.component';
+
+import VedCard from './components/PersonCards/VedCard.component';
+import TanCard from './components/PersonCards/TanCard.component';
+import KarCard from './components/PersonCards/KarCard.component';
+import VaishCard from './components/PersonCards/VaishCard.component';
+
+import theme from './theme';
 
 function App() {
   return (
@@ -36,8 +41,10 @@ function App() {
 
             <FeaturesHighlight />
 
-            <Card />
-            <Card />
+            <KarCard />
+            <TanCard />
+            <VaishCard />
+            <VedCard />
 
             {/* <Contact /> */}
 
@@ -54,7 +61,6 @@ export default App;
 /*
 
 - fill details
-- add email icon in cards
 - make SOP
 - make default as dark mode
 

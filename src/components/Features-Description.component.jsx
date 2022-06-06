@@ -66,7 +66,7 @@ export default function FeaturesDescription() {
               textTransform="uppercase"
               letterSpacing="wide"
             >
-              Transactions
+              Proposal
             </chakra.h2>
             <chakra.p
               mt={2}
@@ -76,7 +76,7 @@ export default function FeaturesDescription() {
               letterSpacing="tight"
               color={useColorModeValue('gray.900')}
             >
-              A better way to send money
+              Sponsored Final Year Project
             </chakra.p>
             <chakra.p
               mt={4}
@@ -85,8 +85,9 @@ export default function FeaturesDescription() {
               mx={{ lg: 'auto' }}
               color={useColorModeValue('gray.500', 'gray.400')}
             >
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              We are technically sound and consistent in our work. We are not
+              only savvy with various technical skills but also experienced with
+              implementing them for industrial purposes.
             </chakra.p>
           </Box>
 
@@ -99,7 +100,7 @@ export default function FeaturesDescription() {
               gridRowGap={{ md: 10 }}
             >
               <Feature
-                title="Competitive exchange rates"
+                title="Diverse & Latest Technical Skills"
                 icon={
                   <path
                     strokeLinecap="round"
@@ -109,13 +110,13 @@ export default function FeaturesDescription() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Our team has worked with various upcoming and trending
+                technologies ranging from MERN Stack, Data Science to IOT
+                programming.
               </Feature>
 
               <Feature
-                title=" No hidden fees"
+                title="Structured Workflow"
                 icon={
                   <path
                     strokeLinecap="round"
@@ -125,13 +126,13 @@ export default function FeaturesDescription() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                We believe in proceeding for any project in a systematic
+                well-defined structured manner which also impacts to the final
+                output and efficiency.
               </Feature>
 
               <Feature
-                title="Transfers are instant"
+                title="Swift Work Progress"
                 icon={
                   <path
                     strokeLinecap="round"
@@ -141,13 +142,12 @@ export default function FeaturesDescription() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                We try to complete tasks asap while simultaneously maintaing the
+                quality of our work.
               </Feature>
 
               <Feature
-                title="Mobile notifications"
+                title="Effective communication "
                 icon={
                   <path
                     strokeLinecap="round"
@@ -157,9 +157,9 @@ export default function FeaturesDescription() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Proper and in-depth communication between you and our team would
+                tremendously help understanding the project and take it to the
+                next level.
               </Feature>
             </Stack>
           </Box>
