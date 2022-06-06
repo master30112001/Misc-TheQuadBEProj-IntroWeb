@@ -21,6 +21,7 @@ import Card from './components/Card.component';
 import Footer from './components/Footer.component';
 import FeaturesHighlight from './components/Features-Highlight.component';
 import FeaturesDescription from './components/Features-Description.component';
+import Contact from './components/Contact.component';
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
             <Card />
             <Card />
 
+            {/* <Contact /> */}
+
             {/* <Footer /> */}
           </VStack>
         </Grid>
@@ -47,3 +50,13 @@ function App() {
 }
 
 export default App;
+
+/*
+
+- fill details
+- add email icon in cards
+- make SOP
+- make default as dark mode
+
+
+*/

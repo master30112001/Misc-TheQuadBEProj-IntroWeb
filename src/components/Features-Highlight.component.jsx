@@ -62,7 +62,7 @@ const FeaturesHighlight = () => {
           Get the #1 Business Messenger and start delivering personalized
           experiences at every stage of the customer journey.
         </chakra.p>
-        {/* <Box display="inline-flex" rounded="md" shadow="md">
+        <Box display="inline-flex" rounded="md" shadow="md">
           <chakra.a
             mt={2}
             display="inline-flex"
@@ -75,15 +75,15 @@ const FeaturesHighlight = () => {
             w="full"
             rounded="md"
             color={useColorModeValue('black')}
-            bg={useColorModeValue('brand.600', 'green.400')}
+            bg={useColorModeValue('brand.600', 'green.500')}
             _hover={{
-              bg: useColorModeValue('brand.700', 'green.500'),
+              bg: useColorModeValue('brand.700', 'green.600'),
             }}
           >
-            Visit the Help Centre
+            Talk to us
             <Icon as={FiExternalLink} ml={2} />
           </chakra.a>
-        </Box> */}
+        </Box>
       </Flex>
     </SimpleGrid>
   );
