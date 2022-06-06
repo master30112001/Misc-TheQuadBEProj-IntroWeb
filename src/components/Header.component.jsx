@@ -54,21 +54,21 @@ export default function Header() {
             <Button
               colorScheme={'green'}
               bg={'green.400'}
-              rounded={'full'}
+              rounded="full"
               px={6}
               _hover={{
                 bg: 'green.500',
               }}
             >
-              Get Started
+              Statement of Purpose
             </Button>
-            <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
+            {/* <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
               Learn more
-            </Button>
+            </Button> */}
             <Box>
               <Icon
                 as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
+                color={useColorModeValue('gray.400', 'gray.400')}
                 w={71}
                 position={'absolute'}
                 right={-71}
@@ -82,7 +82,7 @@ export default function Header() {
                 top={'-15px'}
                 transform={'rotate(10deg)'}
               >
-                Starting at $15/mo
+                Do have a look
               </Text>
             </Box>
           </Stack>

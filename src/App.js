@@ -19,6 +19,8 @@ import { Logo } from './Logo';
 import Header from './components/Header.component';
 import Card from './components/Card.component';
 import Footer from './components/Footer.component';
+import FeaturesHighlight from './components/Features-Highlight.component';
+import FeaturesDescription from './components/Features-Description.component';
 
 function App() {
   return (
@@ -28,6 +30,10 @@ function App() {
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={0}>
             <Header />
+
+            <FeaturesDescription />
+
+            <FeaturesHighlight />
 
             <Card />
             <Card />
